@@ -1,9 +1,11 @@
 import React from "react"
-import "./index.scss"
+// import { Link } from "react-router-dom"
+import "./Header.scss"
 
 const Header = () => (
   <header className="header">
-    <nav>
+    <nav className="menu container">
+      {/* <Link to="/">Home</Link> */}
       <a href="/">Home</a>
       <a href="/login">Login / Criar</a>
     </nav>
