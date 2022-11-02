@@ -1,15 +1,13 @@
-import React from 'react';
+import React from "react"
+import Footer from "./components/Footer"
+import Header from "./components/Header/Header"
 import "./App.scss"
-import Footer from './components/Footer';
-import Header from './components/Header/Header';
 
-const App = () => {
-  return (
-    <div>
-      <Header />
-      <Footer />
-    </div>
-  )
-};
+const App = () => (
+  <div>
+    <Header />
+    <Footer />
+  </div>
+)
 
-export default App;
+export default App
