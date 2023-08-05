@@ -6,6 +6,7 @@ body {
   --type-first: Helvetica, Arial, sans-serif;
   --type-second: "Spectral", Georgia;
   margin: 0;
+  padding-top: 4rem;
   color: #333;
   font-family: var(--type-first);
 }
@@ -38,8 +39,16 @@ input {
   color: #333;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 800px;
   padding: 0 1rem;
   margin: 0 auto;
+}
+
+iframe {
+  pointer-events: none;
 }
