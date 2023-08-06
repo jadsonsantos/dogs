@@ -52,3 +52,13 @@ a {
 iframe {
   pointer-events: none;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 64px);
+
+  &__body {
+    flex: 1;
+  }
+}

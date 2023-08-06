@@ -4,17 +4,22 @@ import Home from "./pages/Home"
 import Login from "./pages/Login"
 import Footer from "./components/Footer"
 import Header from "./components/Header/Header"
+import { UserStorage } from "./contexts/userContext"
 import "./App.scss"
 
 const App = () => (
-  <div>
+  <div className="app">
     <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login/*" element={<Login />} />
-      </Routes>
-      <Footer />
+      <UserStorage>
+        <Header />
+        <main className="app__body">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login/*" element={<Login />} />
+          </Routes>
+        </main>
+        <Footer />
+      </UserStorage>
     </BrowserRouter>
   </div>
 )
