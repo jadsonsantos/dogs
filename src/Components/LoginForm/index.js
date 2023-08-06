@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import { TOKEN_POST, USER_GET } from "../../api"
 import Button from "../Forms/Button"
 import Input from "../Forms/Input"
+import Head from "../Head"
 import useForm from "../../hooks/useForm"
 
 const LoginForm = () => {
@@ -43,6 +44,7 @@ const LoginForm = () => {
 
   return (
     <section>
+      <Head title="Login" />
       <h1>Login</h1>
       <form onSubmit={handleSubmit}>
         <Input label="Usuário" type="text" name="username" {...username} />
