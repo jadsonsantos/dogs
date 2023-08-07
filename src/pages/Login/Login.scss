@@ -1,0 +1,21 @@
+.app .login {
+ @media (min-width: 1024px) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  gap: 2rem;
+  
+  &:before {
+   display: block;
+   content: "";
+   background: url("../../assets/login.jpg") no-repeat center center;
+   background-size: cover;
+  }
+
+  &__forms {
+    max-width: 30rem;
+    padding: 1rem;
+    margin: unset;
+  }
+ }
+}
