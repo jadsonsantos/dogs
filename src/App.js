@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./pages/Home"
 import Login from "./pages/Login"
 import Footer from "./components/Footer"
-import Header from "./components/Header/Header"
+import Header from "./components/Header"
 import { UserStorage } from "./contexts/userContext"
 import "./App.scss"
 
