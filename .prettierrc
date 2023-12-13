@@ -7,7 +7,6 @@
   "useTabs": false,
   "importOrder": [
     "^react",
-    "^gatsby",
     "<THIRD_PARTY_MODULES>",
     "^(.*)layout(.*)$",
     "^.*services/(.*)$",
@@ -19,8 +18,8 @@
     "^(.*)context(.*)$",
     ".*/style(.*)$",
     ".*.scss$"
-],
-"importOrderSeparation": false,
-"importOrderSortSpecifiers": true,
-"importOrderCaseInsensitive": true
+  ],
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true,
+  "importOrderCaseInsensitive": true
 }
