@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import { Link } from "react-router-dom"
-import { ReactComponent as Dogs } from "../../assets/dogs.svg"
+import Dogs from "../../assets/dogs.svg?react"
 import { UserContext } from "../../contexts/userContext"
 import "./Header.scss"
 
