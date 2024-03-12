@@ -34,8 +34,10 @@
         "newlinesBetween": "always",
         "groups": [
           ["/^react/"],
-          ["/pages/", "/components/", "/utils/", "/services/"],
           "/module/",
+          ["/pages/"],
+          ["/components/"],
+          ["/utils/", "/services/", "/hooks/"],
           "/^@shared/",
           "/absolute/",
           ["parent", "sibling", "index"]
