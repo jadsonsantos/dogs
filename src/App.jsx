@@ -6,7 +6,7 @@ import Footer from "./components/Footer"
 import Header from "./components/Header"
 import NotFound from "./components/NotFound"
 import { UserStorage } from "./contexts/userContext"
-import "./App.scss"
+import "./styles/App.scss"
 
 const App = () => (
   <div className="app">

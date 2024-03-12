@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap");
+@import "reset";
+@import "variables";
+@import "utilities";
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 64px);
+
+  &__body {
+    flex: 1;
+  }
+}

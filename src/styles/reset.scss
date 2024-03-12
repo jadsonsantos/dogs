@@ -1,20 +1,16 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  padding-top: 4rem;
   color: #333;
-  --type-first: Helvetica, Arial, sans-serif;
-  --type-second: "Spectral", Georgia;
   font-family: var(--type-first);
+}
+
+iframe {
+  pointer-events: none;
 }
 
 h1,
@@ -28,8 +24,8 @@ p {
 ul,
 li {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 img {
@@ -40,13 +36,12 @@ img {
 button,
 input {
   display: block;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: var(--type-first);
   color: #333;
 }
 
-.container {
-  max-width: 50rem;
-  padding: 0 1rem;
-  margin: 0 auto;
+a {
+  text-decoration: none;
+  color: #333;
 }
