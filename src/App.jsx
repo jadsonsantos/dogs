@@ -1,11 +1,14 @@
-import React from "react"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Home from "./pages/Home"
-import Login from "./pages/Login"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import NotFound from "./components/NotFound"
-import { UserStorage } from "./contexts/userContext"
+
+import Home from "pages/Home/index.jsx"
+import Login from "pages/Login/index.jsx"
+
+import Footer from "components/Footer/index.jsx"
+import Header from "components/Header/index.jsx"
+import NotFound from "components/NotFound/index.jsx"
+
+import { UserStorage } from "contexts/userContext"
+
 import "./styles/App.scss"
 
 const App = () => (

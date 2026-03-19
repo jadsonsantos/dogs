@@ -1,4 +1,3 @@
-import React from "react"
 import Dogs from "../../assets/dogs.svg?react"
 import "./Footer.scss"
 
